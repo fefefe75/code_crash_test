@@ -1,0 +1,12 @@
+script.js:68 Error fetching sensor data: SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+fetchSensorData @ script.js:68
+setInterval (async)
+(anonymous) @ script.js:71
+script.js:54 
+        
+        
+       POST http://127.0.0.1:1250/read_sensor 500 (Internal Server Error)
+fetchSensorData @ script.js:54
+setInterval (async)
+(anonymous) @ script.js:71
+script.js:68 Error fetching sensor data: SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
