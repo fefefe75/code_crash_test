@@ -13,3 +13,16 @@ script.js:68 Error fetching sensor data: SyntaxError: Unexpected non-whitespace 
 
 
 curl -X POST http://127.0.0.1:1250/read_sensor -H "Content-Type: application/json"
+
+Error handling request
+Traceback (most recent call last):
+  File "/home/felix/env_py/myenv/lib/python3.11/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/felix/env_py/myenv/lib/python3.11/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+                 ^^^^^^^^^^^^^^^^
+TypeError: read_sensor_data() takes 0 positional arguments but 1 was given
+
+
+
