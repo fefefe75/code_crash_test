@@ -24,5 +24,7 @@ Traceback (most recent call last):
                  ^^^^^^^^^^^^^^^^
 TypeError: read_sensor_data() takes 0 positional arguments but 1 was given
 
+Checksum did not validate. Try again.
+
 
 
