@@ -10,3 +10,6 @@ fetchSensorData @ script.js:54
 setInterval (async)
 (anonymous) @ script.js:71
 script.js:68 Error fetching sensor data: SyntaxError: Unexpected non-whitespace character after JSON at position 4 (line 1 column 5)
+
+
+curl -X POST http://127.0.0.1:1250/read_sensor -H "Content-Type: application/json"
