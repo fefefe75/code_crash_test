@@ -6,7 +6,7 @@ import board
 import adafruit_dht
 
 # Initialize the DHT device, with data pin connected to:
-dhtDevice = adafruit_dht.DHT22(board.D18)
+dhtDevice = adafruit_dht.DHT11(board.D3)
 
 while True:
     try:
